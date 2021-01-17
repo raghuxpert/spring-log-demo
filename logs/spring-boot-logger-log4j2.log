@@ -1,0 +1,18 @@
+2021-01-16 12:55:10,645 INFO o.s.b.StartupInfoLogger [main] Starting SpringLogDemoApplication using Java 15 on RAGHAV with PID 13120 (C:\Java Projects\SpringLogDemo\springLogDemo\target\classes started by RAGHAV PC in C:\Java Projects\SpringLogDemo\springLogDemo)
+2021-01-16 12:55:10,668 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-01-16 12:55:12,900 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-01-16 12:55:12,937 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-01-16 12:55:12,941 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2021-01-16 12:55:12,942 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-16 12:55:13,148 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-01-16 12:55:13,149 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2380 ms
+2021-01-16 12:55:13,533 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-16 12:55:13,849 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-01-16 12:55:13,913 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-16 12:55:13,936 INFO o.s.b.StartupInfoLogger [main] Started SpringLogDemoApplication in 4.339 seconds (JVM running for 6.205)
+2021-01-16 12:55:21,072 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-16 12:55:21,072 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-01-16 12:55:21,075 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2021-01-16 12:55:21,126 WARN c.r.s.c.LogController [http-nio-8080-exec-1] logged warn message from controller
+2021-01-16 12:55:21,126 WARN c.r.s.c.LogController [http-nio-8080-exec-1] logged warn message from controller
+2021-01-16 12:55:21,127 INFO c.r.s.s.LogService [http-nio-8080-exec-1] logged message in service
